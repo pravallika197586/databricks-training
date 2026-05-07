@@ -45,3 +45,30 @@ group by department_id;
 
 select department_id, avg(salary) as average
 from Employee group by department_id
+
+
+select department_id,avg(salary) as average from Employee 
+group by department_id
+order by average DESC
+limit 1;
+
+
+select department_id,count(emp_id) as employee from Employee
+group by department_id
+having count(emp_id)>2;
+
+select department_id,avg(salary) as averagesalary from Employee
+group by department_id
+having avg(salary)>55000;
+
+select year(hire_date) as year ,count(emp_id) as employe from Employee
+group by year(hire_date) 
+having count(emp_id)>1;
+
+select department_id,avg(salary) from Employee
+group by department_id
+having avg(salary)<100000;
+
+select department_id,sum(salary) from Employee
+group by department_id
+having sum(salary)<75000;
