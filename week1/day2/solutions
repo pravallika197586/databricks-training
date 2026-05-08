@@ -1,1 +1,80 @@
-
+Query #1 Execution time: 0.26ms
+instructor_id	instructor_name	department
+1	Sarah Connor	Databases
+2	Michael Scott	Programming
+3	Tony Stark	Cloud Computing
+4	Bruce Wayne	Cyber Security
+Query #2 Execution time: 6.28ms
+enrollment_id	student_id	course_id	enrollment_date
+1	1	101	2024-01-10
+2	1	102	2024-01-12
+3	2	101	2024-01-15
+4	3	104	2024-01-20
+5	4	106	2024-01-25
+Query #3 Execution time: 0.15ms
+course_id	course_name	instructor_id
+101	SQL Basics	1
+102	Python Fundamentals	2
+103	Data Analytics	null
+104	Cloud Computing	3
+105	Machine Learning	null
+106	Cyber Security	4
+Query #4 Execution time: 0.12ms
+student_id	student_name	email
+1	Alice Johnson	alice@email.com
+2	Bob Smith	bob@email.com
+3	Charlie Brown	charlie@email.com
+4	Diana Prince	diana@email.com
+5	Ethan Hunt	ethan@email.com
+6	Fiona Green	fiona@email.com
+Query #5 Execution time: 0.25ms
+student_name	course_name
+Alice Johnson	SQL Basics
+Alice Johnson	Python Fundamentals
+Bob Smith	SQL Basics
+Charlie Brown	Cloud Computing
+Diana Prince	Cyber Security
+Ethan Hunt	null
+Fiona Green	null
+Query #6 Execution time: 0.19ms
+student_name	course_name
+Ethan Hunt	null
+Fiona Green	null
+Query #7 Execution time: 0.16ms
+instructor_name	course_name
+Sarah Connor	SQL Basics
+Michael Scott	Python Fundamentals
+Tony Stark	Cloud Computing
+Bruce Wayne	Cyber Security
+null	Data Analytics
+null	Machine Learning
+Query #8 Execution time: 0.34ms
+student_name	enrollment_id	course_id	enrollment_date
+Alice Johnson	1	101	2024-01-10
+Alice Johnson	2	102	2024-01-12
+Bob Smith	3	101	2024-01-15
+Charlie Brown	4	104	2024-01-20
+Diana Prince	5	106	2024-01-25
+Ethan Hunt	null	null	null
+Fiona Green	null	null	null
+Query #9 Execution time: 0.16ms
+course_name
+Data Analytics
+Machine Learning
+Query #10 Execution time: 0.25ms
+instructor_name	course_name
+Sarah Connor	SQL Basics
+Michael Scott	Python Fundamentals
+Tony Stark	Cloud Computing
+Bruce Wayne	Cyber Security
+null	Data Analytics
+null	Machine Learning
+Query #11 Execution time: 0.16ms
+student_name	course_name	instructor_name
+Alice Johnson	SQL Basics	Sarah Connor
+Alice Johnson	Python Fundamentals	Michael Scott
+Bob Smith	SQL Basics	Sarah Connor
+Charlie Brown	Cloud Computing	Tony Stark
+Diana Prince	Cyber Security	Bruce Wayne
+Ethan Hunt	null	null
+Fiona Green	null	null
